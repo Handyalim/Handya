@@ -3,17 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img pro kino/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/index.css" rel="stylesheet">
     <title>Pro Kino- Avatar: The Legend Of Aang</title>
-    <style>
-        body{
-            background-color: gray;
-            
-        }
-        .visually-hidden{
-          position: fixed;
-          transform: scale(0);
-        }
-    </style>
 </head>
 <body>
     <header class="header">
@@ -26,7 +19,7 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="vissualy-hidden">Сериал от Netlix - Аватар: Легенда об Аанге</h1>
+          <h1 class="visually-hidden">Сериал от Netlix - Аватар: Легенда об&nbsp;Аанге</h1>
           <img src="img pro kino/banner.png" alt="Avatar The Last Airbender" class="hero__banner">
           <p class="hero__data">
             <time datetime="2024-02-22">22 Февраля</time>
@@ -36,26 +29,50 @@
               <circle id="Ellipse 1" cx="32.000000" cy="32.000000" r="31.500000" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000"/>
               <rect id="simple-line-icons:arrow-up" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(20.500000 20.500000)" fill="#FFFFFF" fill-opacity="0"/>
               <path id="Vector" d="M20.19 26.45C20.19 26.25 20.27 26.04 20.42 25.89C20.73 25.58 21.24 25.58 21.55 25.89L32.14 36.48L42.57 26.04C42.88 25.73 43.39 25.73 43.7 26.04C44 26.35 44 26.86 43.7 27.17L32.7 38.17C32.39 38.48 31.88 38.48 31.57 38.17L20.42 27.02C20.26 26.86 20.19 26.66 20.19 26.45Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-            </svg>s
+            </svg>
           </a>
         </div>
       </section>
       <section class="about" id="about">
-        <div class="container">
-
+        <div class="container about__container">
+<div class="about__content">
+  <h2 class="about__title">Аватар: Легенда об Аанге</h2>
+<p class="about__description">
+  Сюжет рассказывает о&nbsp;мальчике из&nbsp;племени воздушных кочевников, 
+  Аанге, способном покорять стихию воздуха. В&nbsp;возрасте 11&nbsp;лет, 
+  он&nbsp;узнал, что он&nbsp;Аватар&nbsp;&mdash; властелин четырёх стихий. 
+  Мир погряз в&nbsp;многолетней войне нации Огня против остального мира, 
+  в&nbsp;котором определённые люди способны покорять одну 
+  из&nbsp;четырёх стихий&nbsp;&mdash; воду, землю, огонь или воздух. 
+  Аанг&nbsp;&mdash; единственный, кто способен покорить все элементы и&nbsp;будучи Аватаром, 
+  он&nbsp;должен спасти мир от&nbsp;уничтожения нацией Огня. Со&nbsp;своими новыми друзьями, 
+  Катарой и&nbsp;Соккой, Аанг отправляется овладевать стихиями, 
+  попутно их&nbsp;преследует изгнанный принц нации Огня&nbsp;&mdash; 
+  Зуко, который хочет вернуть себе честь, поймав Аватара.
+  </p>
+</div>
+<picture class="about__pic">
+  <source  srcset="img pro kino/Aang320.jpeg" media="(max-width: 320px )">
+  <source  srcset="img pro kino/Aang768.jpeg" media="(max-width: 768px )">
+  <source  srcset="img pro kino/Aang1024.jpeg" media="(max-width: 1024px )">
+  <img class="about__image" src="img pro kino/Aang.jpeg" alt="Aang">
+</picture>
         </div>
       </section>
       <section class="trailers" id="trailers">
         <div class="container">
           <ul class="trailers__buttons">
             <li class="trailers__item-button">
-              <button class="trailers__button trailers__button_active">трейлер 1</button>
-            </li>a
-            <li class="trailers__item-button">
-              <button class="trailers__button">трейлер 2</button>
+              <button class="trailers__button trailers__button_active"
+              aria-label="Первый трейлер">трейлер 1</button>
             </li>
             <li class="trailers__item-button">
-              <button class="trailers__button">трейлер 3</button>
+              <button class="trailers__button"
+              aria-label="Второй трейлер">трейлер 2</button>
+            </li>
+            <li class="trailers__item-button">
+              <button class="trailers__button"
+              aria-label="Третий трейлер">трейлер 3</button>
             </li>
 
           </ul>
@@ -82,7 +99,7 @@
           </li>
         </ul>
 
-        <p class="footer__copyright">© ПРОКИНО, 2024</p>
+        <p class="footer__copyright">&copy;&nbsp;ПРОКИНО, 2024</p>
 
         <img class="footer__logo" src="img pro kino/logo.svg" alt="logo">
       </div>
